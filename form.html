@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Test</title>
+
+</head>
+
+<body>
+    <div id="content" class="container my-5" id="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Vedant Insurance Broking Pvt. Ltd.</h4>
+                        <p class="card-description text-center"> TAX Invoice Details</p>
+                        <hr>
+                        <form class="form-sample">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="serialNumber"
+                                            class="col-sm-3 col-form-label my-0 text-center">Invoice Serial
+                                            :<br> Number</label>
+                                        <div class="col-sm-9">
+                                            <input id="serialNumber" type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="date" class="col-sm-3 col-form-label text-center">Date :</label>
+                                        <div class="col-sm-9">
+                                            <input id="date" type="date" class="form-control" required placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 class="card-title ml-3 py-2">Details of Receiver (Billed To)</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="name" class="col-sm-3 col-form-label text-center">Name :</label>
+                                        <div class="col-sm-9">
+                                            <input id="name" type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="address" class="col-sm-3 col-form-label text-center">Address
+                                            :</label>
+                                        <div class="col-sm-9">
+                                            <input id="address" type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="state" class="col-sm-3 text-center col-form-label">State / State :<br> code</label>
+                                        <div class="col-sm-9">
+                                            <select id="state" class="form-control" required>
+                                                <option>Select</option>
+                                                <option>JHARKHAND/20</option>
+                                                <option>Category2</option>
+                                                <option>Category3</option>
+                                                <option>Category4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="gst" class="col-sm-3 col-form-label text-center">GSTIN / :<br> Unique ID</label>
+                                        <div class="col-sm-9">
+                                            <input id="gst" type="text" id="pan" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="pan" class="col-sm-3 col-form-label text-center">PAN No. :</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="pan" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="dos" class="col-sm-3 col-form-label text-center">Description of :<br>
+                                            Services</label>
+                                        <div class="col-sm-9">
+                                            <input id="dos" type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="ta" class="col-sm-3 col-form-label text-center">Taxable :<br> Amount</label>
+                                        <div class="col-sm-9">
+                                            <input id="ta" type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 text-center py-3">
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                </div>
+                                
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.min.js"></script>
+
+
+</body>
+
+</html>
